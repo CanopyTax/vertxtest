@@ -9,11 +9,11 @@ import io.vertx.core.eventbus.EventBus;
  */
 public class Sender extends AbstractVerticle {
 
-    // Convenience method so you can run it in your IDE
-    public static void main(String[] args) {
-        Vertx vertx = Vertx.vertx();
-        vertx.deployVerticle(Sender.class.getCanonicalName());
-    }
+//    // Convenience method so you can run it in your IDE
+//    public static void main(String[] args) {
+//        Vertx vertx = Vertx.vertx();
+//        vertx.deployVerticle(Sender.class.getCanonicalName());
+//    }
 
     @Override
     public void start() throws Exception {
